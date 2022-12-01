@@ -20,7 +20,11 @@ public class HelloWorldController {
 		return "helloworld";
 	}
 	
-	
+	@RequestMapping("/deleteForm")
+	public String deleteForm()
+	{
+		return "form deleted";
+	}
 
 
 }
