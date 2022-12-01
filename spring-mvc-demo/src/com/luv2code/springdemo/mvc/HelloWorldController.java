@@ -25,6 +25,10 @@ public class HelloWorldController {
 	{
 		return "form deleted";
 	}
-
+	@RequestMapping("/statusForm")
+	public String statusForm()
+	{
+		return "form status active";
+	}
 
 }
