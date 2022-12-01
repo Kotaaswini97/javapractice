@@ -25,10 +25,19 @@ public class HelloWorldController {
 	{
 		return "form deleted";
 	}
+<<<<<<< Updated upstream
 	@RequestMapping("/statusForm")
 	public String statusForm()
 	{
 		return "form status active";
 	}
+=======
+	@RequestMapping("/updateForm")
+	public String updateForm()
+	{
+		return "form updated";
+	}
+
+>>>>>>> Stashed changes
 
 }
